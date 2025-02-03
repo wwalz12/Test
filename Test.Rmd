@@ -1,0 +1,27 @@
+---
+title: "Test File"
+author: "Will Walz"
+date: "2025-02-03"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(ggplot2)
+```
+```{r}
+data <- read_csv("CMC_SAT_ACT_Scores.csv")
+data
+
+```
+
+```{r}
+ggplot(data = data, aes(x = `Metric`, y = `Mean Score`, fill = `Metric`)) +
+  geom_bar(stat = "identity") +
+  labs(
+    x = "Test Component",
+    y = "Score",
+    title = "Test Component Means"
+  )
+```
+

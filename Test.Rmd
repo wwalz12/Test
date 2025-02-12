@@ -1,6 +1,6 @@
 ---
 title: "Test File"
-author: "Will Walz"
+author: "William Walz"
 date: "2025-02-03"
 output: pdf_document
 ---

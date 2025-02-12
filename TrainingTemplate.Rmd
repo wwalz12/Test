@@ -1,0 +1,80 @@
+---
+title: "TrainingTemplate"
+author: "Unity Tambellini-Smith"
+date: "2024-03-24"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#import tidyverse library
+```{r}
+
+```
+
+#import data 
+```{r, echo=FALSE}
+
+```
+
+#find column names
+```{r}
+
+```
+
+#Looking at the data -- view, head, summary
+```{r}
+
+```
+
+#looking at a table of 'school' values
+```{r}
+
+```
+
+#filter for the institution assigned to you
+```{r}
+
+```
+
+#change year to be a factor
+```{r}
+
+```
+
+#create a new column to find room and board 
+```{r}
+```
+
+#pivot long to prepare for graphing where value is the amount in $ and the group column is either tuition or room and board. change new column to be a factor
+```{r}
+
+```
+
+##basic plot
+resources on stacked bar charts:
+https://r-graph-gallery.com/48-grouped-barplot-with-ggplot2
+
+#plot a stacked bar chart where the x axis is year the y axis is amount, and it is grouped by tuition vs room and board
+```{r}
+
+```
+it might be better to have the room and board value on the bottom: so we do the following 
+
+#add title, change y axis to be "amount in dollars", and change font to Palatino
+```{r}
+
+
+```
+
+#make a black and white version 
+```{r}
+
+```
+
+#export 
+```{r}
+
+```
